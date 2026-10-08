@@ -1,0 +1,30 @@
+[project]
+name = "biological-data-platform"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zhengdiao111", email = "81383738+zhengdiao111@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "faker>=40.41.0",
+    "pandas>=3.0.6",
+    "psycopg[binary]>=3.3.6",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.4",
+    "sqlalchemy>=2.1.4",
+]
+
+[project.scripts]
+biological-data-platform = "biological_data_platform:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]
