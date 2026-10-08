@@ -1,0 +1,5 @@
+experiment_code,experiment_date,researcher,construct_code,perturbation,dose,dose_unit
+EXP-001,2026-01-10,Alice,C001,TSA,100,nM
+EXP-002,2026-01-11,Bob,C002,Control,0,nM
+EXP-003,2026-01-12,Alice,C003,BRM014,5,uM
+EXP-004,2026-01-13,Carol,C001,TSA,0.1,uM

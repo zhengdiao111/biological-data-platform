@@ -1,0 +1,4 @@
+construct_code,promoter,activation_domain,binding_site_count
+C001,CMV,VP16,4
+C002,RSV,VP16,4
+C003,hPGK,p65,8
